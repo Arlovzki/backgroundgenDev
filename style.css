@@ -2,26 +2,53 @@ body {
 	font: 'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
+    /* text-transform: uppercase; */
+    /* letter-spacing: .5em; */
     top: 15%;
-	background: linear-gradient(to right, red , yellow); /* Standard syntax */
+    background: linear-gradient(to right, red , yellow); /* Standard syntax */
+   
 }
 
-h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
+div{
+    font:'Raleway', sans-serif;
     color: rgba(0,0,0,.5);
     text-align: center;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    width: 100%;
+    font-weight: bold;
+
 }
 
-h3 {
-	font: 900 1em 'Raleway', sans-serif;
-    color: rgba(0,0,0,.5);
-    text-align: center;
-    text-transform: none;
-    letter-spacing: 0.01em;
+@media screen and (min-width: 601px) {
+    div.adjust {
+      font-size: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.adjust {
+      font-size: 40px;
+    }
+}
 
+@media screen and (min-width: 601px) {
+    div.adjust2 {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.adjust2 {
+      font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    div.adjust3 {
+      font-size: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    div.adjust3 {
+      font-size: 10px;
+    }
 }
